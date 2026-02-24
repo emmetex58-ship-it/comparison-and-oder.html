@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Comparison Table -->
+    <section id="compare">
+        <h2>Product Comparison</h2>
+
+        <table border="1">
+            <caption>Compare Top Smartphones</caption>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Smartphone XPro</th>
+                    <th>Galaxy Prime</th>
+                    <th>iSmart Ultra</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            
+                <tr>
+                    <td>Price</td>
+                    <td>₦450,000</td>
+                    <td>₦400,000</td>
+                    <td>₦500,000</td>
+                </tr>
+                <tr>
+                    <td>Brand</td>
+                    <td>XTech</td>
+                    <td>GalaxyCorp</td>
+                    <td>iSmart</td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>4.5/5</td>
+                    <td>4.3/5</td>
+                    <td>4.7/5</td>
+                </tr>
+                <tr>
+                    <td>In Stock</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+
+    <!-- Order Form -->
+    <section id="order">
+        <h2>Customer Registration & Order Form</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" placeholder="First Last" id="fullname"> <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" placeholder="emmy@example.com" id="email"><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" placeholder="+234" id="phone">
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend>Order Details</legend>
+
+                <label for="product">Select Product:</label>
+                <select id="product" name="product">
+                    <option>Smartphone XPro</option>
+                    <option>Laptop ProBook</option>
+                    <option>Wireless Headphones</option>
+                    <option>smart glasses</option>
+                    <option>Smart watch</option>
+                    <option>mac Book</option>
+                </select><br><br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+                <label for="payment">Payment Method:</label> <br>
+
+                <input type="radio" name="payment method" id="credit card"><label for="credit card">Credit Card</label>
+
+                <input type="radio" name="payment method" id="Bank Transfer"><label for="Bank Transfer">Bank Transfer</label>
+
+                <input type="radio" name="Payment method" id="Payment on delivery"><label for="Payment on delivery">Payment on delivery</label>
+                
+            </fieldset><br><br>
+
+            <button type="submit">Submit Order</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
